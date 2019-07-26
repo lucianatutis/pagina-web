@@ -1,0 +1,90 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+</style>
+
+body, h1, h2, h3, h5, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: violet;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 42px;
+}
+
+.contenedor {
+  width: 75%;
+  margin: 0 auto;
+  background-color: white;
+  border: 4px solid white;
+  overflow: hidden;
+}
+.cabeza {
+  background-color: #f8c6c6;
+  padding: 20px;
+}
+.portada {
+  background-image: url(https://scontent.faep9-1.fna.fbcdn.net/v/t1.0-9/22894464_742948265891869_6642134607530030573_n.jpg?_nc_cat=109&_nc_oc=AQmxM0Tyx_E52WBLawG_1b9z_-0eT3osbbKJ1mhpum74BCUcpV6J-1q5vNXP_z7WJfM&_nc_ht=scontent.faep9-1.fna&oh=3d26b289df1120115db693db64885d8b&oe=5DE45973);
+  height: 200px;
+  text-align: center;
+  padding: 80px;
+}
+.cuerpo1 {
+  padding: 20px;
+  color: white;
+  background-color: burlywood;
+}
+.cuerpo2 {
+  background: #cccccc;
+  padding: 20px;
+  overflow: hidden;
+}
+.cuerpo3 {
+  background: white;
+  padding: 20px;
+  overflow: hidden;
+}
+.col {
+  float: left;
+  width: 46%;
+  padding: 10px;
+}
+.pie {
+    text-align: center;
+    padding: 30px;
+    color: rgb(211, 29, 29);
+    background-color: rgb(89, 169, 175);
+}
+
+.menu {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid rgb(147, 221, 211);
+  color: rgb(147, 221, 211);
+  background-color: white;
+}
+.menu:hover {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid rgb(147, 221, 211);
+  color: white;
+  background-color: rgb(147, 221, 211);
+}
+.txt-des {
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px rgb(71, 160, 75);
+}
+.txt-jus {
+  text-align: justify;
+}
+.img-res {
+  width: 150%;
+  height: auto;
+}
